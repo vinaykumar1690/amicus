@@ -1,0 +1,20 @@
+
+
+
+/*element.style {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("liberty.jpeg");
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../../assets/img/city_bg.jpg) no-repeat center;
+    background-size: cover;
+    border: none;
+}*/
+
+
+.jumbotron {
+    border: 1px solid #e7e7e7;
+    -webkit-box-shadow: inset 0 2px 0 rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 0 rgba(0,0,0,0.05);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/user.css">
     <link rel="stylesheet" href="assets/css/Call-to-Action-Div-with-Icon-Header--Button.css">
     <link rel="stylesheet" href="assets/css/Contact-FormModal-Contact-Form-with-Google-Map.css">
+    <link rel="stylesheet" href="assets/css/dh-navbar-inverse.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Team-Clean.css">
     <link rel="stylesheet" href="assets/css/Testimonials.css">
 </head>
@@ -30,13 +32,29 @@
                 </ul>
             </div>
         </div>
-    </nav><img src="assets/img/Amicus.png">
-    <div class="jumbotron hero" style="background-image:url(&quot;assets/img/liberty.jpeg&quot;);">
+    </nav>
+    <nav class="navbar navbar-default navigation-clean navbar-inverse navbar-fixed-top" style="background-color:#ffffff;">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="#" style="padding:0px;margin-left:0px;height:78px;"> <img src="assets/img/Amicus.png"></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right" style="margin-top:13px;">
+                    <li role="presentation"><a href="#" uk-scroll="offset:50" style="color:#222222;">Home </a></li>
+                    <li role="presentation"><a href="#empresa" uk-scroll="offset:100" style="color:#1f2021;">Features </a></li>
+                    <li role="presentation"><a href="#areas" uk-scroll="offset:100" style="color:#222222;">Testimonials </a></li>
+                    <li role="presentation"><a href="#diferencial" uk-scroll="offset:50" style="color:#222222;">Contact US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron hero" style="background-image:url(&quot;assets/img/liberty_2.jpeg&quot;);">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-5 col-md-pull-3 get-it">
                     <h1 class="text-center">Simplifying Legal Knowledge</h1>
-                    <p class="text-center">Helping the community connect with lawyers and connecting lawyers to Pro Bono opportunities. </p>
+                    <p class="text-center" style="font-size:26px;">Helping the community connect with lawyers and connecting lawyers to Pro Bono opportunities. </p>
                     <p></p>
                 </div>
             </div>
@@ -45,40 +63,34 @@
             <p class="text-center"></p>
             <p class="lead text-center text-success" style="color:rgb(252,255,252);"><a class="text-success" href="#" style="color:rgb(248,249,249);"><strong>92</strong></a> other clients have received help.</p>
             <p class="text-center">
-                <a class="btn btn-primary" href="#" onclick="LC_API.open_chat_window();return false;">ask a question</a>
+                <button class="btn btn-primary" type="button">ask a question</button>
             </p>
         </div>
     </div>
-    <section class="testimonials">
-        <h2 class="text-center">Law firms and clients Love It!</h2>
-        <blockquote>
-            <p>Amicus provides immigrants with answers to quick questions. No expensive lawyer fees. No sign-in required </p>
-            <footer>Famous tech website</footer>
-        </blockquote>
-    </section>
-    <section class="features">
+    <div class="features-clean">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Fantastic Features</h2>
-                    <p>Morbi non mauris massa. Duis elit mauris, malesuada nec suscipit ac, bibendum sed augue. Maecenas condimentum magna gravida, laoreet nunc sed, euismod sem. </p>
+            <div class="intro">
+                <h2 class="text-center">Features</h2>
+                <p class="text-center">Amicus provides immigrants with answers to quick questions. No expensive lawyer fees. No sign-in required </p>
+            </div>
+            <div class="row features">
+                <div class="col-md-4 col-sm-6 item"><i class="glyphicon glyphicon-lock icon"></i>
+                    <h3 class="name">Confidential </h3>
+                    <p class="description">No log-in required. We do not ask for personal information. </p>
                 </div>
-                <div class="col-md-6">
-                    <div class="row icon-features">
-                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-cloud"></i>
-                            <p>Confidential </p>
-                        </div>
-                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-piggy-bank"></i>
-                            <p>Privacy </p>
-                        </div>
-                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-fire"></i>
-                            <p>Fire Proof</p>
-                        </div>
-                    </div>
+                <div class="col-md-4 col-sm-6 item"><i class="glyphicon glyphicon-ok-circle icon"></i>
+                    <h3 class="name">Simple </h3>
+                    <p class="description">As easy as talking to a friend or family member. </p>
+                </div>
+                <div class="col-md-4 col-sm-6 item"><i class="glyphicon glyphicon-edit icon"></i>
+                    <h3 class="name">Personalized </h3>
+                    <p class="description">Our answers are specific to your situation, not general advice. </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <section class="testimonials"></section>
+    <div></div>
     <div class="testimonials-clean">
         <div class="container">
             <div class="intro">
@@ -147,11 +159,6 @@
                     <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div></div>
-    <div class="team-clean">
-        <div class="container">
             <div class="row people">
                 <div class="col-md-4 col-md-offset-2 col-sm-6 item">
                     <img src="assets/img/brenda.png" class="img-circle" />
@@ -168,31 +175,39 @@
                     <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                 </div>
             </div>
-            <div class="row">
-                <h2 class="text-center">Advisors </h2></div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 item">
-                    <img src="assets/img/Dante.png" class="img-circle" />
-                    <h3 class="name">Dontae Rayford&nbsp; </h3>
-                    <p class="title">Advisor, Sr. Director, Business Development at YI Technologies, Inc. </p>
-                    <p class="description">Currently interested in exploring partnerships emerging hardware tech and virtual reality. </p>
-                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <img src="assets/img/josefina.png" class="img-circle" />
-                    <h3 class="name">Josefina Aguayo</h3>
-                    <p class="title">Advisor, Integrated Marketing Strategy and Development </p>
-                    <p class="description">Creative marketing lead with 10 years experience building brands and expanding core businesses for retail stores and e-commerce. </p>
-                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <img src="assets/img/don.jpg" class="img-circle" />
-                    <h3 class="name">Don Loeb</h3>
-                    <p class="title">Advisor, VP Corporate Development and Strategy at Techstars</p>
-                    <p class="description">Over 15 years experience in digital media, focused on content syndication / social distribution and an array of publisher services. </p>
-                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
-                </div>
+        </div>
+    </div>
+    <div class="testimonials-clean">
+        <div class="container">
+            <h2 class="text-center">Advisors </h2>
+            <div class="col-md-4 col-sm-6 item">
+                <img src="assets/img/Dante.png" class="img-circle" />
+                <h3 class="name">Dontae Rayford&nbsp; </h3>
+                <p class="title">Advisor, Sr. Director, Business Development at YI Technologies, Inc. </p>
+                <p class="description">Currently interested in exploring partnerships emerging hardware tech and virtual reality. </p>
+                <div class="social"><a href="#"><i class="fa fa-facebook-official" style="color:rgb(162,168,174);"></i></a><a href="#"><i class="fa fa-twitter" style="color:rgb(162,168,174);"></i></a><a href="#"><i class="fa fa-instagram" style="color:rgb(162,168,174);"></i></a></div>
             </div>
+            <div class="col-md-4 col-sm-6 item">
+                <img src="assets/img/josefina.png" class="img-circle" />
+                <h3 class="name">Josefina Aguayo</h3>
+                <p class="title">Advisor, Integrated Marketing Strategy and Development </p>
+                <p class="description">Creative marketing lead with 10 years experience building brands and expanding core businesses for retail stores and e-commerce. </p>
+                <div class="social"><a href="#"><i class="fa fa-facebook-official" style="color:rgb(162,168,174);"></i></a><a href="#"><i class="fa fa-twitter" style="color:rgb(162,168,174);"></i></a><a href="#"><i class="fa fa-instagram" style="color:rgb(162,168,174);"></i></a></div>
+            </div>
+            <div class="col-md-4 col-sm-6 item">
+                <img src="assets/img/don.jpg" class="img-circle" />
+                <h3 class="name">Don Loeb</h3>
+                <p class="title">Advisor, VP Corporate Development and Strategy at Techstars</p>
+                <p class="description">Over 15 years experience in digital media, focused on content syndication / social distribution and an array of publisher services. </p>
+                <div class="social"><a href="#"><i class="fa fa-facebook-official" style="color:rgb(162,168,174);"></i></a><a href="#"><i class="fa fa-twitter" style="color:rgb(162,168,174);"></i></a><a href="#"><i class="fa fa-instagram" style="color:rgb(162,168,174);"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div class="team-clean">
+        <div class="container">
+            <div class="row" style="background-color:#ffffff;">
+                <h2 class="text-center"><i class="fa fa-envelope"></i> Contact Us</h2></div>
         </div>
         <div class="container">
             <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
@@ -295,15 +310,8 @@
                 <input class="form-control" type="hidden" name="subject" value="My Contact Form">
                 <input class="form-control" type="hidden" name="to" value="email@mywebsite.com">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div id="successfail"></div>
-                    </div>
-                </div>
-                <div class="row">
                     <div class="col-md-6" id="message">
-                        <fieldset>
-                            <legend><i class="fa fa-envelope"></i> Contact Us</legend>
-                        </fieldset>
+                        <fieldset></fieldset>
                         <div class="form-group has-feedback">
                             <label class="control-label" for="from_name">Name</label>
                             <input class="form-control" type="text" name="from_name" required="" placeholder="Full Name" id="from_name" tabindex="-1">
@@ -378,7 +386,7 @@ alt="Google Map of Kapor Center" class="img-responsive" />
             </form>
         </div>
     </div>
-    <footer class="site-footer">
+    <footer class="site-footer" style="background-color:#222222;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -390,17 +398,6 @@ alt="Google Map of Kapor Center" class="img-responsive" />
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>
-    <!-- Start of LiveChat (www.livechatinc.com) code -->
-    <script type="text/javascript">
-        window.__lc = window.__lc || {};
-        window.__lc.license = 9139265;
-        (function() {
-            var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-            lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-        })();
-    </script>
-    <!-- End of LiveChat code -->
 </body>
 
 </html>
