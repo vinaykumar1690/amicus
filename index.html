@@ -64,7 +64,7 @@
             <p class="text-center"></p>
             <p class="lead text-center text-success" style="color:rgb(252,255,252);"><a class="text-success" href="#" style="color:rgb(248,249,249);"><strong>92</strong></a> other clients have received help from Amicus.</p>
             <p class="text-center">
-                <button class="btn btn-primary" type="button">ask amicus</button>
+                <a class="btn btn-primary" href="#" onclick="LC_API.open_chat_window();return false;">ask amicus</a>
             </p>
         </div>
     </div>
@@ -399,6 +399,17 @@ alt="Google Map of Kapor Center" class="img-responsive" />
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script type="text/javascript">
+        window.__lc = window.__lc || {};
+        window.__lc.license = 9139265;
+        (function() {
+            var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+            lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+        })();
+    </script>
+    <!-- End of LiveChat code -->
 </body>
 
 </html>
